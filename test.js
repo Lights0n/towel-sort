@@ -9,7 +9,7 @@ describe('.towelSort, should perfrom \'towelSort\'', () => {
   });
 
   it('Should return empty array if matrix is empty', () => {
-    assert.deepEqual(towelSort([]), []);
+    assert.deepEqual(towelSort([]),  []);
   });
 
   it('should do towelSort', () => {
